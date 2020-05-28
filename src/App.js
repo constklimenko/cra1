@@ -3,6 +3,8 @@ import React from 'react';
 import './App.css';
 import Header from './Header.js';
 import Technologies from './Technologies.js'
+import Footer from './Footer';
+
 
 
 
@@ -11,6 +13,7 @@ const App = () => {
     <div className="App">
       < Header />
       <Technologies />
+      <Footer />
 
     </div>
   );
