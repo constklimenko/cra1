@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Circe";
+  src: url(fonts/Circe-Light.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Circe";
+  src: url(fonts/Circe-Bold.ttf);
+  font-weight: bold;
+}
