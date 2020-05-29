@@ -5,21 +5,8 @@
   grid-template-areas  : "h h""n c";
 }
 
-.header {
-  background-color: aqua;
-  grid-area       : h;
-}
 
-.nav {
-  grid-area       : n;
-  background-color: blueviolet;
-}
 
 .main {
   grid-area: c;
-}
-
-.logo {
-  width : 60px;
-  height: auto;
 }
