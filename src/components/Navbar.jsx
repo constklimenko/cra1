@@ -1,9 +1,9 @@
 import React from 'react';
-import '../css/Navbar.css'
+import st from '../css/Navbar.module.less'
 
 const Navbar = () => {
   return (
-    <nav className="nav"></nav>
+    <nav className={st.nav}></nav>
   )
 }
 

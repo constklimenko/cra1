@@ -2,11 +2,11 @@ import React from 'react';
 import Header from './components/Header'
 import Navbar from './components/Navbar'
 import Profile from './components/Profile'
-import './css/App.css';
+import st from './css/App.module.less';
 
 const App = () => {
   return (
-    <div className="app-wrapper">
+    <div className={st.app_wrapper}>
       <Header />
 
       <Navbar />
